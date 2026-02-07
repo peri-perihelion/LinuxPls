@@ -1,0 +1,16 @@
+{
+  "name": "moth.linuxpls.worlds",
+  "displayName": "Linux VRChat Worlds SDK Patch",
+  "version": "0.1.0",
+  "url": "https://github.com/peri-perihelion/LinuxPls",
+  "author": {
+    "name": "moth"
+  },
+  "unity": "2022.3",
+  "description": "VRChat Worlds SDK patch for Linux support. Violates VRChat TOS, use at your own volition.",
+  "documentationUrl": "https://github.com/peri-perihelion/LinuxPls",
+  "licensesUrl": "https://www.wtfpl.net/about/",
+  "vpmDependencies": {
+    "com.vrchat.base": "^3.10.1"
+  }
+}
