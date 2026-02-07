@@ -10,14 +10,16 @@ I haven't tested the Avatars SDK, but from what I can tell it seems to work fine
 
 # Usage
 1. Install `umu-launcher` from your distributions package manager
-2. Install the patch into your project in your preferred way
+2. Install the patch into a project in your preferred way
     - Using ALCOM
         1. Add this package to ALCOM using [the website](https://peri-perihelion.github.io/LinuxPls)
         2. Install the package with ALCOM
     - Manually
         1. Download the unitypackage from [Releases](https://github.com/peri-perihelion/LinuxPls/releases)
+        2. Install the unitypackage by dragging and dropping onto your project window
         
-Thats it! Your VRChat client should be set automatically. Additional settings (such as targeting a specific Proton version) are avaliable in the VRChatSDK Settings tab.
+Thats it! Your VRChat client should be set automatically. \
+Additional settings (such as targeting a specific Proton version) are avaliable in the VRChatSDK Settings tab.
 
 ## Special Thanks
 - [BeffudledLabs LinuxVRChatSDKPatch](https://github.com/BefuddledLabs/LinuxVRChatSDKPatch), for creating the patch that this is based on.
