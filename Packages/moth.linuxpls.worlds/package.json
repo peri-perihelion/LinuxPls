@@ -4,7 +4,8 @@
   "version": "0.1.0",
   "url": "https://github.com/peri-perihelion/LinuxPls",
   "author": {
-    "name": "moth"
+    "name": "moth",
+    "url": "https://github.com/peri-perihelion"
   },
   "unity": "2022.3",
   "description": "VRChat Worlds SDK patch for Linux support. Violates VRChat TOS, use at your own volition.",
