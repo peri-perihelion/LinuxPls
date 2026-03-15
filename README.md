@@ -1,12 +1,15 @@
 # LinuxPls
+"Linux Please", a Harmony patch that adds Linux support to the VRChat Worlds SDK.
+
+This patch addresses the following issues:
+- Build and test failing to open VRChat
+- Build and test crashing silently
+- VRChat path not automatically being detected
+- Black screen when testing multiple clients
+
 > [!WARNING]
-> This tool modifies the VRChatSDK, which is [directly against the terms of service.](https://hello.vrchat.com/legal#:~:text=or%20attempt%20to%20make%20any%20modification%20to%20any%20portion%20of%20the%20Platform)
-
-Yet another VRChat SDK Patch for Linux support, using [Harmony](https://github.com/pardeike/Harmony) and [umu-launcher](https://github.com/Open-Wine-Components/umu-launcher). \
-[Please vote for an official solution on the VRChat Canny!](https://feedback.vrchat.com/sdk-bug-reports/p/add-proton-support-to-the-sdk-for-local-tests)
-
-**This only patches the VRChat Worlds SDK!**\
-I haven't tested the Avatars SDK, but from what I can tell it seems to work fine on Linux.
+> This tool modifies the VRChatSDK, which is [against the terms of service.](https://hello.vrchat.com/legal#:~:text=or%20attempt%20to%20make%20any%20modification%20to%20any%20portion%20of%20the%20Platform)\
+> [Please vote for an official solution on the Canny.](https://feedback.vrchat.com/sdk-bug-reports/p/add-proton-support-to-the-sdk-for-local-tests)
 
 # Usage
 1. Install `umu-launcher` from your distributions package manager
@@ -17,9 +20,10 @@ I haven't tested the Avatars SDK, but from what I can tell it seems to work fine
     - Manually
         1. Download the unitypackage from [Releases](https://github.com/peri-perihelion/LinuxPls/releases)
         2. Install the unitypackage by dragging and dropping onto your project window
-        
-Thats it! Your VRChat client should be set automatically. \
-Additional settings (such as targeting a specific Proton version) are avaliable in the VRChatSDK Settings tab.
+
+Additional settings (such as targeting a specific Proton version) are avaliable in the VRChat SDK Settings tab.
+
+![settings](settings.png)
 
 ## Special Thanks
 - [BeffudledLabs LinuxVRChatSDKPatch](https://github.com/BefuddledLabs/LinuxVRChatSDKPatch), for creating the patch that this is based on.
