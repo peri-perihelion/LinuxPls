@@ -8,7 +8,7 @@
     "url": "https://github.com/peri-perihelion"
   },
   "unity": "2022.3",
-  "description": "VRChat Worlds SDK patch for Linux support. Violates VRChat TOS, use at your own volition.",
+  "description": "VRChat Worlds SDK patch for improved Linux support.",
   "documentationUrl": "https://github.com/peri-perihelion/LinuxPls",
   "licensesUrl": "https://www.wtfpl.net/about/",
   "vpmDependencies": {
