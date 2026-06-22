@@ -5,6 +5,7 @@ This patch addresses the following issues:
 - Build and test failing to open VRChat
 - Build and test crashing silently
 - VRChat path not automatically being detected
+- Vulkan being forcefully disabled
 - Black screen when testing multiple clients
 
 > [!WARNING]
