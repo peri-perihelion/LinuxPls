@@ -24,7 +24,8 @@ namespace moth.LinuxPls.Worlds.Editor {
                 return true;
             }
 
-            string compatDataPath = Base.CompatDataPath();
+            // remove the leading backslash, as it causes wine to search in the wrong directory
+            string compatDataPath = Base.CompatDataPath()[1..];
             if (compatDataPath == "" || !File.Exists(vrcInstallPath)) {
                 Debug.LogError("Failed to locate VRChat compatdata folder!");
                 return false;
