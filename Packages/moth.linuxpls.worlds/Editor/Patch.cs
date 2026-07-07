@@ -43,6 +43,9 @@ namespace moth.LinuxPls.Worlds.Editor {
         public static void SetLinuxGraphicsAPIs(){
             PlayerSettings.SetUseDefaultGraphicsAPIs(BuildTarget.StandaloneLinux64, false);
             PlayerSettings.SetGraphicsAPIs(BuildTarget.StandaloneLinux64, new[] {GraphicsDeviceType.Vulkan, GraphicsDeviceType.OpenGLCore});
+            
+            // fixes: https://vrchat.canny.io/sdk-bug-reports/p/vrchat-sdk-toggles-m-automatic-in-projectsettingsasset-for-ios-graphics-api
+            PlayerSettings.SetUseDefaultGraphicsAPIs(BuildTarget.iOS, true);
         }
     }
 }
